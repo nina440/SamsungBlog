@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Шапка сайта</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <script src="views.js"></script>
+        <script src="scroll.js"></script>
+
+    </head>
+<body>
+    <header>
+        <div class="container">
+          <!-- Верхняя панель -->
+          <div class="header-top">
+              <div class="city-selector">
+                <div class="city-select-wrapper">
+                  <img src="public/img/navigation-pointer-01.png" alt="Location Icon" class="city-icon">
+                  <select id="city" name="city" class="city-select">
+                    <option>Санкт-Петербург</option>
+                    <option>Архангельск</option>
+                    <option>Казань</option>
+                    <option>Мурманск</option>
+                    <option>Пермь</option>
+                    <option>Ухта</option>
+                  </select>
+                </div>
+              </div>
+      
+            <nav class="top-links" aria-label="Верхнее меню">
+              <ul class="links">
+                <li><a href="#">Магазины</a></li>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Сервисные центры</a></li>
+                <li><a href="#">Для бизнеса</a></li>
+                <li>
+                  <a href="#" class="icon-text">
+                    <img src="public/img/loyalty.png" alt="Программа лояльности">
+                    Программа лояльности
+                  </a>
+                </li>
+              </ul>
+            </nav>
+      
+            <div class="phone-number">
+              <a href="tel:+78007700396">+7 (800) 77-003-96</a>
+            </div>
+          </div>
+      
+          <!-- Средняя панель -->
+          <div class="header-middle">
+            <div class="logo">
+              <a href="/">
+                <img src="public/img/Logo.png" alt="Логотип компании Samsung">
+              </a>
+            </div>
+      
+            <form class="product-search" action="/search" method="GET" role="search">
+              <input id="search-input" type="text" name="query" placeholder="Искать товары" required>
+              <button type="submit">
+                <img src="public/img/search-md.png" alt="Поиск">
+              </button>
+            </form>
+      
+            <nav class="user-nav" aria-label="Меню пользователя">
+              <ul class="links">
+                <li><a href="#"><img src="public/img/user.png" alt="Личный кабинет"></a></li>
+                <li><a href="#"><img src="public/img/compro.png" alt="Сравнение товаров"></a></li>
+                <li><a href="#"><img src="public/img/like.png" alt="Избранное"></a></li>
+                <li><a href="#"><img src="public/img/basket.png" alt="Корзина"></a></li>
+              </ul>
+            </nav>
+          </div>
+      
+          <!-- Нижняя панель -->
+          <nav class="header-bottom" aria-label="Категории товаров">
+            <ul class="links main-categories">
+              <li><a href="#">Смартфоны</a></li>
+              <li><a href="#">Планшеты</a></li>
+              <li><a href="#">Смарт-часы</a></li>
+              <li><a href="#">ТВ и Аудио</a></li>
+              <li><a href="#">Мультимедиа</a></li>
+              <li><a href="#">Ноутбуки</a></li>
+              <li><a href="#">Бытовая техника</a></li>
+              <li><a href="#">Аксессуары</a></li>
+            </ul>
+            <ul class="links promo-categories">
+              <li><a href="#">Новинки</a></li>
+              <li><a href="#">Уценка</a></li>
+              <li><a href="#">Акции</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    
+
+
+
+
+
+
+<!-- Хлебные крошки -->
+<section class="section-breadcrumb">
+    <nav class="breadcrumb container" aria-label="breadcrumb">
+      <a href="https://www.samsungstore.ru/">Главная</a>
+      <span> / </span>
+      <a href="index2.html">Блог</a>
+    </nav>
+  </section>
+  
+  <!-- Категории -->
+  <section class="section-categories">
+    <div class="product-categories container">
+      <ul class="links">
+        <li><a href="#blog">Все</a></li>
+        <li><a href="#smartphones">Смартфоны</a></li>
+        <li><a href="#tabs">Планшеты</a></li>
+        <li><a href="#watches">Смарт-часы</a></li>
+        <li><a href="#tv-audio">ТВ и аудио</a></li>
+        <!--<li><a href="#multimedia">Мультимедиа</a></li>-->
+        <!--<li><a href="#laptops">Ноутбуки</a></li>-->
+      </ul>
+    </div>
+  </section>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Контент блога 1 -->
+    <section id="blog" class="blog-section section-card">
+      <div class="container blog-layout">
+        <div class="content-left">
+          <!-- Главная статья -->
+          <article class="content-1" data-article-id="galaxy-s23-test">
+            <div class="img-wrapper">
+              <img src="public/img/Frame 1228.png" alt="Galaxy S23 Series" loading="lazy" class="lazy-image" />
+            </div>
+            <div class="tags">
+              <a href="#">Смартфоны</a>
+              <a href="#">Обзоры</a>
+            </div>
+            <h1>
+              <a href="article.html?id=galaxy-s23-test" class="article-link">Тестируем новый смартфон Samsung и рассказываем про его главные особенности</a>
+            </h1>
+            <span class="views">
+              <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+              <span class="views-count">0 просмотров</span>
+            </span>
+          </article>
+  
+          <!-- Дополнительные статьи -->
+          <section class="content-2">
+            <article data-article-id="galaxy-a53-vs-a54">
+              <div class="img-wrapper">
+                <img src="public/img/Frame 1222.png" alt="Galaxy A53 vs A54" loading="lazy" />
+              </div>
+              <div class="tags">
+                <a href="#">Смартфоны</a>
+                <a href="#">Подборка</a>
+              </div>
+              <h3>
+                <a href="article.html?id=galaxy-a53-vs-a54" class="article-link">Samsung Galaxy A53 vs Samsung Galaxy A54: что выбрать</a>
+              </h3>
+              <span class="views">
+                <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                <span class="views-count">0 просмотров</span>
+              </span>
+            </article>
+  
+            <article data-article-id="tablet-guide">
+              <div class="img-wrapper">
+                <img src="public/img/Frame 1222 (1).png" alt="Как выбрать планшет" loading="lazy" />
+              </div>
+              <div class="tags">
+                <a href="#">Планшеты</a>
+                <a href="#">Подборка</a>
+              </div>
+              <h3>
+                <a href="article.html?id=tablet-guide" class="article-link">Как выбрать планшет</a>
+              </h3>
+              <span class="views">
+                <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                <span class="views-count">0 просмотров</span>
+              </span>
+            </article>
+  
+            <article data-article-id="foldable-screen">
+              <div class="img-wrapper">
+                <img src="public/img/Frame 1222 (2).png" alt="Складные экраны" loading="lazy" />
+              </div>
+              <div class="tags">
+                <a href="#">Планшеты</a>
+                <a href="#">Обзор</a>
+              </div>
+              <h3>
+                <a href="article.html?id=foldable-screen" class="article-link">Как устроен экран складных смартфонов</a>
+              </h3>
+              <span class="views">
+                <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                <span class="views-count">0 просмотров</span>
+              </span>
+            </article>
+          </section>
+        </div>
+  
+        <!-- Популярное за неделю -->
+        <div class="content-right">
+            <aside class="content-3">
+            <h1>Популярное за неделю</h1>
+            <ul>
+                <li>
+                <div class="popular-item" data-article-id="sberbank-1">
+                    <h3>
+                    <a href="article.html?id=sberbank-1" class="article-link">Как установить «СберБанк Онлайн» на Samsung — простой способ</a>
+                    </h3>
+                    <span class="views">
+                    <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                    <span class="views-count">0 просмотров</span>
+                    </span>
+                </div>
+                </li>
+                <li>
+                <div class="popular-item" data-article-id="sberbank-2">
+                    <h3>
+                    <a href="article.html?id=sberbank-2" class="article-link">Как установить «СберБанк Онлайн» на Samsung — простой способ</a>
+                    </h3>
+                    <span class="views">
+                    <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                    <span class="views-count">0 просмотров</span>
+                    </span>
+                </div>
+                </li>
+                <li>
+                <div class="popular-item" data-article-id="sberbank-3">
+                    <h3>
+                    <a href="article.html?id=sberbank-3" class="article-link">Как установить «СберБанк Онлайн» на Samsung — простой способ</a>
+                    </h3>
+                    <span class="views">
+                    <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                    <span class="views-count">0 просмотров</span>
+                    </span>
+                </div>
+                </li>
+                <li>
+                <div class="popular-item" data-article-id="sberbank-4">
+                    <h3>
+                    <a href="article.html?id=sberbank-4" class="article-link">Как установить «СберБанк Онлайн» на Samsung — простой способ</a>
+                    </h3>
+                    <span class="views">
+                    <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                    <span class="views-count">0 просмотров</span>
+                    </span>
+                </div>
+                </li>
+                <li>
+                <div class="popular-item" data-article-id="sberbank-5">
+                    <h3>
+                    <a href="article.html?id=sberbank-5" class="article-link">Как установить «СберБанк Онлайн» на Samsung — простой способ</a>
+                    </h3>
+                    <span class="views">
+                    <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                    <span class="views-count">0 просмотров</span>
+                    </span>
+                </div>
+                </li>
+                <li>
+                <div class="popular-item" data-article-id="sberbank-6">
+                    <h3>
+                    <a href="article.html?id=sberbank-6" class="article-link">Как установить «СберБанк Онлайн» на Samsung — простой способ</a>
+                    </h3>
+                    <span class="views">
+                    <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                    <span class="views-count">0 просмотров</span>
+                    </span>
+                </div>
+                </li>
+            </ul>
+            </aside>
+        </div>
+        
+      </div>
+    </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Контент блога 2 -->
+
+    <section id="smartphones" class="section-smartphones section-card">
+        <div class="container">
+          <div class="section-header">
+            <h2>Смартфоны</h2>
+            <a href="#" class="view-all">Смотреть все →</a>
+          </div>
+      
+          <div class="grid-layout">
+            <!-- Левый верхний блок -->
+            <article class="card large" data-article-id="a53-vs-a54">
+                <img src="public/img/Frame 277131446.png" alt="Samsung Galaxy A53 vs A54" />
+                <div class="tags">
+                <a href="#">Смартфоны</a>
+                <a href="#">Обзоры</a>
+                </div>
+                <h3>
+                <a href="article.html?id=a53-vs-a54" class="article-link">
+                    Samsung Galaxy A53 vs Samsung Galaxy A54: что выбрать
+                </a>
+                </h3>
+                <span class="views">
+                    <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                    <span class="views-count">0 просмотров</span>
+                </span>
+            </article>
+            
+            <!-- Центр - большой блок -->
+            <article class="card hero" data-article-id="perfect-smartphone">
+                <img src="public/img/Frame 1222 (4).png" alt="Идеальный смартфон" />
+                <div class="tags">
+                <a href="#">Смартфоны</a>
+                <a href="#">Обзоры</a>
+                </div>
+                <h2>
+                <a href="article.html?id=perfect-smartphone" class="article-link">
+                    Идеальный смартфон: выбираем устройство, пользоваться которым — одно удовольствие
+                </a>
+                </h2>
+                <span class="views">
+                    <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                    <span class="views-count">0 просмотров</span>
+                </span>
+            </article>
+            
+            <!-- Правый верхний блок -->
+            <article class="card" data-article-id="foldable-screen">
+                <img src="public/img/Frame 1222 (3).png" alt="Складной экран" />
+                <div class="tags">
+                <a href="#">Смартфоны</a>
+                <a href="#">Обзоры</a>
+                </div>
+                <h3>
+                <a href="article.html?id=foldable-screen" class="article-link">
+                    Как устроен экран складных смартфонов
+                </a>
+                </h3>
+                <span class="views">
+                    <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                    <span class="views-count">0 просмотров</span>
+                </span>
+            </article>
+            
+            <!-- Нижний левый блок -->
+            <article class="card" data-article-id="foldable-screen-2">
+                <img src="public/img/Frame 1222 (3).png" alt="Складной экран" />
+                <div class="tags">
+                <a href="#">Смартфоны</a>
+                <a href="#">Обзоры</a>
+                </div>
+                <h3>
+                <a href="article.html?id=foldable-screen-2" class="article-link">
+                    Как устроен экран складных смартфонов
+                </a>
+                </h3>
+                <span class="views">
+                    <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                    <span class="views-count">0 просмотров</span>
+                </span>
+            </article>
+            
+            <!-- Нижний правый блок -->
+            <article class="card" data-article-id="a53-vs-a54-2">
+                <img src="public/img/Frame 277131446.png" alt="Galaxy A53 vs A54" />
+                <div class="tags">
+                <a href="#">Смартфоны</a>
+                <a href="#">Обзоры</a>
+                </div>
+                <h3>
+                <a href="article.html?id=a53-vs-a54-2" class="article-link">
+                    Samsung Galaxy A53 vs Samsung Galaxy A54: что выбрать
+                </a>
+                </h3>
+                <span class="views">
+                    <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                    <span class="views-count">0 просмотров</span>
+                </span>
+            </article>
+  
+          </div>
+        </div>
+    </section>
+      
+      
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Контент блога 3 -->
+    <section id="tabs" class="section-tabs section-card">
+      <div class="container">
+        <div class="section-header">
+          <h2>Планшеты</h2>
+          <a href="#" class="view-all">Смотреть все →</a>
+        </div>
+
+        <div class="grid-layout">
+          <!-- Левый верхний блок -->
+          <article class="card large" data-article-id="tablet-a53-vs-a54">
+              <img src="public/img/Frame 1.png" alt="Samsung Galaxy A53 vs A54" />
+              <div class="tags">
+                <a href="#">Планшеты</a>
+                <a href="#">Обзоры</a>
+              </div>
+              <h3>
+                <a href="article.html?id=tablet-a53-vs-a54" class="article-link">
+                    Samsung Galaxy A53 vs Samsung Galaxy A54: что выбрать
+                </a>
+              </h3>
+              <span class="views">
+                <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                <span class="views-count">0 просмотров</span>
+              </span>
+          </article>
+
+          <!-- Центр - большой блок -->
+          <article class="card hero" data-article-id="tablet-perfect-smartphone">
+              <img src="public/img/Frame 3.png" alt="Идеальный смартфон" />
+              <div class="tags">
+                <a href="#">Планшеты</a>
+                <a href="#">Обзоры</a>
+              </div>
+              <h2>
+                <a href="article.html?id=tablet-perfect-smartphone" class="article-link">
+                    Идеальный смартфон: выбираем устройство, пользоваться которым — одно удовольствие
+                </a>
+              </h2>
+              <span class="views">
+                <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                <span class="views-count">0 просмотров</span>
+              </span>
+          </article>
+
+          <!-- Правый верхний блок -->
+          <article class="card" data-article-id="tablet-foldable-screen">
+              <img src="public/img/Frame 2.png" alt="Складной экран" />
+              <div class="tags">
+                <a href="#">Планшеты</a>
+                <a href="#">Обзоры</a>
+              </div>
+              <h3>
+                <a href="article.html?id=tablet-foldable-screen" class="article-link">
+                    Как устроен экран складных планшетов
+                </a>
+              </h3>
+              <span class="views">
+                <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                <span class="views-count">0 просмотров</span>
+              </span>
+          </article>
+
+          <!-- Нижний левый блок -->
+          <article class="card" data-article-id="tablet-foldable-screen-2">
+              <img src="public/img/Frame 2.png" alt="Складной экран" />
+              <div class="tags">
+                <a href="#">Планшеты</a>
+                <a href="#">Обзоры</a>
+              </div>
+              <h3>
+                <a href="article.html?id=tablet-foldable-screen-2" class="article-link">
+                    Как устроен экран складных планшетов
+                </a>
+              </h3>
+              <span class="views">
+                <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                <span class="views-count">0 просмотров</span>
+              </span>
+          </article>
+
+          <!-- Нижний правый блок -->
+          <article class="card" data-article-id="tablet-a53-vs-a54-2">
+              <img src="public/img/Frame 1.png" alt="Galaxy A53 vs A54" />
+              <div class="tags">
+                <a href="#">Планшеты</a>
+                <a href="#">Обзоры</a>
+              </div>
+              <h3>
+                <a href="article.html?id=tablet-a53-vs-a54-2" class="article-link">
+                    Samsung Galaxy A53 vs Samsung Galaxy A54: что выбрать
+                </a>
+              </h3>
+              <span class="views">
+                <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+                <span class="views-count">0 просмотров</span>
+              </span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Контент блога 4 -->
+<section id="watches" class="section-watches section-card">
+  <div class="container">
+    <div class="section-header">
+      <h2>Смарт-часы</h2>
+      <a href="#" class="view-all">Смотреть все →</a>
+    </div>
+
+    <div class="grid-layout">
+      <!-- Левый верхний блок -->
+      <article class="card large" data-article-id="watch-a53-vs-a54">
+          <img src="public/img/Frame 4.png" alt="Сравнение смарт-часов" />
+          <div class="tags">
+            <a href="#">Смарт-часы</a>
+            <a href="#">Обзоры</a>
+          </div>
+          <h3>
+            <a href="article.html?id=watch-a53-vs-a54" class="article-link">
+                Как выбрать смарт-часы: лучшие модели для разных задач
+            </a>
+          </h3>
+          <span class="views">
+            <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+            <span class="views-count">0 просмотров</span>
+          </span>
+      </article>
+
+      <!-- Центр - большой блок -->
+      <article class="card hero" data-article-id="watch-perfect-smartwatch">
+          <img src="public/img/Frame 6.png" alt="Идеальные смарт-часы" />
+          <div class="tags">
+            <a href="#">Смарт-часы</a>
+            <a href="#">Обзоры</a>
+          </div>
+          <h2>
+            <a href="article.html?id=watch-perfect-smartwatch" class="article-link">
+                Идеальные смарт-часы: на что обратить внимание при покупке
+            </a>
+          </h2>
+          <span class="views">
+            <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+            <span class="views-count">0 просмотров</span>
+          </span>
+      </article>
+
+      <!-- Правый верхний блок -->
+      <article class="card" data-article-id="watch-foldable-screen">
+          <img src="public/img/Frame 5.png" alt="Гибкие экраны часов" />
+          <div class="tags">
+            <a href="#">Смарт-часы</a>
+            <a href="#">Технологии</a>
+          </div>
+          <h3>
+            <a href="article.html?id=watch-foldable-screen" class="article-link">
+                Будущее смарт-часов: гибкие дисплеи и новые технологии
+            </a>
+          </h3>
+          <span class="views">
+            <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+            <span class="views-count">0 просмотров</span>
+          </span>
+      </article>
+
+      <!-- Нижний левый блок -->
+      <article class="card" data-article-id="watch-foldable-screen-2">
+          <img src="public/img/Frame 5.png" alt="Гибкие экраны часов" />
+          <div class="tags">
+            <a href="#">Смарт-часы</a>
+            <a href="#">Технологии</a>
+          </div>
+          <h3>
+            <a href="article.html?id=watch-foldable-screen-2" class="article-link">
+                Как работают гибкие дисплеи в смарт-часах
+            </a>
+          </h3>
+          <span class="views">
+            <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+            <span class="views-count">0 просмотров</span>
+          </span>
+      </article>
+
+      <!-- Нижний правый блок -->
+      <article class="card" data-article-id="watch-a53-vs-a54-2">
+          <img src="public/img/Frame 4.png" alt="Сравнение смарт-часов" />
+          <div class="tags">
+            <a href="#">Смарт-часы</a>
+            <a href="#">Обзоры</a>
+          </div>
+          <h3>
+            <a href="article.html?id=watch-a53-vs-a54-2" class="article-link">
+                ТОП-5 смарт-часов 2025 года
+            </a>
+          </h3>
+          <span class="views">
+            <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+            <span class="views-count">0 просмотров</span>
+          </span>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Контент блога 5 -->
+<section id="tv-audio" class="section-tv-audio section-card">
+  <div class="container">
+    <div class="section-header">
+      <h2>ТВ и Аудио</h2>
+      <a href="#" class="view-all">Смотреть все →</a>
+    </div>
+
+    <div class="grid-layout">
+      <!-- Левый верхний блок -->
+      <article class="card large" data-article-id="tv-audio-best-tv">
+          <img src="public/img/Frame 7.png" alt="Лучшие телевизоры" />
+          <div class="tags">
+            <a href="#">ТВ и Аудио</a>
+            <a href="#">Обзоры</a>
+          </div>
+          <h3>
+            <a href="article.html?id=tv-audio-best-tv" class="article-link">
+              Лучшие телевизоры 2025 года: рейтинг моделей
+            </a>
+          </h3>
+          <span class="views">
+            <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+            <span class="views-count">0 просмотров</span>
+          </span>
+      </article>
+
+      <!-- Центр - большой блок -->
+      <article class="card hero" data-article-id="tv-audio-perfect-sound">
+          <img src="public/img/Frame 9.png" alt="Идеальный звук" />
+          <div class="tags">
+            <a href="#">ТВ и Аудио</a>
+            <a href="#">Руководства</a>
+          </div>
+          <h2>
+            <a href="article.html?id=tv-audio-perfect-sound" class="article-link">
+              Как выбрать идеальную акустику для дома
+            </a>
+          </h2>
+          <span class="views">
+            <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+            <span class="views-count">0 просмотров</span>
+          </span>
+      </article>
+
+      <!-- Правый верхний блок -->
+      <article class="card" data-article-id="tv-audio-oled-vs-qled">
+          <img src="public/img/Frame 8.png" alt="OLED vs QLED" />
+          <div class="tags">
+            <a href="#">ТВ и Аудио</a>
+            <a href="#">Технологии</a>
+          </div>
+          <h3>
+            <a href="article.html?id=tv-audio-oled-vs-qled" class="article-link">
+              OLED против QLED: что выбрать в 2025 году
+            </a>
+          </h3>
+          <span class="views">
+            <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+            <span class="views-count">0 просмотров</span>
+          </span>
+      </article>
+
+      <!-- Нижний левый блок -->
+      <article class="card" data-article-id="tv-audio-home-cinema">
+          <img src="public/img/Frame 8.png" alt="Домашний кинотеатр" />
+          <div class="tags">
+            <a href="#">ТВ и Аудио</a>
+            <a href="#">Руководства</a>
+          </div>
+          <h3>
+            <a href="article.html?id=tv-audio-home-cinema" class="article-link">
+              Как собрать домашний кинотеатр: гид для начинающих
+            </a>
+          </h3>
+          <span class="views">
+            <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+            <span class="views-count">0 просмотров</span>
+          </span>
+      </article>
+
+      <!-- Нижний правый блок -->
+      <article class="card" data-article-id="tv-audio-soundbar">
+          <img src="public/img/Frame 7.png" alt="Лучшие саундбары" />
+          <div class="tags">
+            <a href="#">ТВ и Аудио</a>
+            <a href="#">Обзоры</a>
+          </div>
+          <h3>
+            <a href="article.html?id=tv-audio-soundbar" class="article-link">
+              ТОП-5 саундбаров для идеального звучания
+            </a>
+          </h3>
+          <span class="views">
+            <img src="public/img/eye (1).png" alt="Глазик" style="width:16px; height:16px; vertical-align:middle; margin-right:4px;">
+            <span class="views-count">0 просмотров</span>
+          </span>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<section class="subscribe-section">
+  <div class="container">
+    <div class="subscribe-container">
+      <div class="subscribe-text">
+        <h2>У нас ещё много интересного</h2>
+        <p>Оставьте почту и получайте подборку лучших материалов раз в две недели</p>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Введите почту" required>
+          <button type="submit">Подписаться</button>
+        </form>
+      </div>
+      <div class="subscribe-image">
+        <img src="public/img/Group 3.png" alt="Почтовый ящик">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-columns">
+          <div class="footer-column">
+            <h4>Покупателям</h4>
+            <ul>
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Адреса магазинов</a></li>
+              <li><a href="#">Доставка и оплата</a></li>
+              <li><a href="#">Обмен и возврат</a></li>
+              <li><a href="#">Бонусная программа</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Услуги</h4>
+            <ul>
+              <li><a href="#">Рассрочка и кредит</a></li>
+              <li><a href="#">Trade-in</a></li>
+              <li><a href="#">Страхование</a></li>
+              <li><a href="#">Бонусная программа</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Компания</h4>
+            <ul>
+              <li><a href="#">О Компании</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Каталог</h4>
+            <ul>
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Galaxy Z Fold4</a></li>
+              <li><a href="#">Galaxy Z Flip4</a></li>
+              <li><a href="#">Galaxy Watch5</a></li>
+              <li><a href="#">Galaxy S22</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-contact">
+          <address class="phone"><a href="tel:+78124480396">+7 (812) 448-03-96</a></address>
+          <div class="social-icons">
+            <a href="#"><img src="public/img/Frame 10.png" alt="Telegram"></a>
+            <a href="#"><img src="public/img/Frame 11.png" alt="VK"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span class="footer-links">
+          ООО «Смарт» samsungstore.ru — сеть фирменных магазинов Samsung
+        </span>
+        <span class="footer-links">
+          <a href="#">Политика конфиденциальности</a>
+        </span>
+        <span class="footer-links">
+          <a href="#">Публичная оферта</a>
+        </span>
+        <span class="footer-links">
+          <a href="#">Правила использования информации</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+      
+</body>
+</html>
+
